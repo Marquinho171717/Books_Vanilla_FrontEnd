@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:footer/footer.dart';
 import 'package:footer/footer_view.dart';
+import 'package:teste/register-book.dart';
 import 'login.dart';
 import 'register.dart';
 
@@ -90,7 +91,7 @@ class BooksVanilla extends StatelessWidget {
         '/': (context) => Home(),
         '/login': (context) => const Login(),
         '/register': (context) => const Register(),
-
+        '/register-book': (context) => const RegisterBook(),
       },
     );
   }
